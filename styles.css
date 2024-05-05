@@ -1,0 +1,181 @@
+body{
+    background: #13293d;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.titulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.5);
+    background-color: #7077acf9;
+    transition: all 0.5s ease;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-child{
+    flex: 1;
+    border: 2.5px solid rgb(1, 217, 255);
+}
+
+.flex-child:first-child{
+    margin-right: 20px;
+}
+
+
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 60px);
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+
+#card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 60px);
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+#card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#card img{
+    height: auto;
+    border-radius: 10px;
+}
+
+#card2:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#card2 img{
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+#card h2 {
+    font-family: helvetica;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#card2 h2 {
+    font-family: helvetica;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#card p{
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#card2 p{
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+#card button{
+    border: none;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+}
+
+#card button:hover{
+    transform: scale(1.1);
+    background-color: #942290;
+    z-index: 1;
+}
+
+
+#card2 button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+}
+
+#card2 button:hover{
+    transform: scale(1.1);
+    background-color: #942290;
+    z-index: 1;
+}
+
+.fa-github{
+    color: black;
+}
+
+.giticon{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.giticon:hover{
+    transform: scale(1.2);
+
+}
+
+.fa-instagram{
+    color: black;
+}
+
+.instaicon{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.instaicon:hover{
+    transform: scale(1.2);
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
